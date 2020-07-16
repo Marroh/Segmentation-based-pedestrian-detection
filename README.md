@@ -4,7 +4,7 @@
 
 #### 一些说明
 
-> Cityscape数据集在预处理时被分成了20类（把train ID=255）的类也算进去了，这是一个失误，本来应该把train ID=255和train ID=-1的一起当成背景。这个错误出在utils/dataset.py的函数IdTrans2TrainID（）中，有时间我会更改后重新上传。
+> Cityscape数据集在预处理时前景被分成了20类（把train ID=255）的类也算进去了，这是一个失误，本来应该把train ID=255和train ID=-1的一起当成背景。这个错误出在utils/dataset.py的函数IdTrans2TrainID（）中，有时间我会更改后重新上传。
 
 
 
