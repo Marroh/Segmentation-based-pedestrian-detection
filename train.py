@@ -78,7 +78,7 @@ def train_net(net,
 
     net.train()
 
-    for epoch in range(40, epochs):
+    for epoch in range(epochs):
 
         if epoch>0 and os.path.exists(os.getcwd() + '/checkpoints/CP_epoch' + str(epoch) + '.pth'):
             net.load_state_dict(torch.load('./checkpoints/CP_epoch' + str(epoch) + '.pth'))
@@ -186,7 +186,6 @@ if __name__ == '__main__':
     #   - For 2 classes, use n_classes=1
     #   - For N > 2 classes, use n_classes=N
     net = UNet(n_channels=3, n_classes=20, bilinear=True)
-    net.load_state_dict(torch.load('checkpoints\CP_epoch40.pth'))
 
     logging.info(f'Network:\n'
                  f'\t{net.n_channels} input channels\n'
