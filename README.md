@@ -10,14 +10,14 @@
 
 #### 实验结果
 
-![](实验结果/Figure_1.png){:height="50%" width="50%"}
+![](实验结果/Figure_1.png)
 
-![](实验结果/Figure_2.png){:height="50%" width="50%"}
+![](实验结果/Figure_2.png)
 
-![](实验结果/Figure_3.png){:height="50%" width="50%"}
+![](实验结果/Figure_3.png)
 
-![](实验结果/Figure_4.png){:height="50%" width="50%"}
+![](实验结果/Figure_4.png)
 
-![](实验结果/Figure_5.png){:height="50%" width="50%"}
+![](实验结果/Figure_5.png)
 
-![](实验结果/Figure_6.png){:height="50%" width="50%"}
+![](实验结果/Figure_6.png)
